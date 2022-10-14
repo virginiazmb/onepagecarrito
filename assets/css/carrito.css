@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+     scroll-behavior: smooth;
+}
+    
+.container{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgb(236, 227, 243);
+    height: 45px;
+    position: fixed;
+    z-index: 150;
+}
+
+.nav-lista{
+    display: flex;    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 45px;
+    font-family: 'Calibri';
+    font-size: small;
+}
+
+.link-item{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.carrito{
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 1130px;
+    line-height: 45px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-header{
+    margin-left: 15px;
+    margin-right: 120px;
+    list-style: none;
+    padding: 12px 25px;
+    font-family: 'Berlin Sans FB';
+    font-weight: 500;
+}
+
+.square{
+    width: 650px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    position: absolute;
+    top: 265px;
+    left: 590px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.button{
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px 28px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    border-radius: 7px;
+    font-family: 'Gill Sans MT';
+    margin-top: 475px;
+    margin-left: 505px;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover{
+      box-shadow: 0 12px 16px 0 rgba(29, 28, 28, 0.24), 0 17px 50px 0 rgba(61, 58, 58, 0.19);
+      background: rgb(243,230,210);
+      background: linear-gradient(90deg, rgba(243,230,210,1) 0%, rgba(233,218,245,1) 43%, rgba(148,219,236,1) 100%);
+  }
+
+  .volver{
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer{
+    width: 100%;
+    height: 30%;
+    background: rgb(248,218,205);
+    background: linear-gradient(90deg, rgba(248,218,205,1) 0%, rgba(239,218,245,1) 43%, rgba(153,177,244,1) 100%);
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+}
+
+.titulo{
+    margin-right: 500px;
+    margin-top: 12px ;
+    list-style: none;
+    padding: 12px 25px;
+    font-family: 'Berlin Sans FB';
+    font-weight: 500;
+    font-size: 20pt;
+    display: flex;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.lista{
+    display: flex;
+    margin-right: 30px;
+}
+
+.lista2{
+    list-style: none;
+    margin-right: 299px;
+    margin-left: -280px;
+    font-family: 'Century Gothic';
+    font-size: 15pt;
+    font-weight: 500;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin-top: 44px;
+    text-decoration: underline rgb(81, 37, 106);
+}
+
+ 
+.facebook{
+    text-decoration: none;
+    color: rgb(42, 17, 71);
+    text-align: left;
+    font-size: 15pt;
+    display: flex;
+    margin-top: 12px;
+}
+
+.instagram{
+    text-decoration: none;
+    color: rgb(42, 17, 71);
+    text-align: center;
+    font-size: 15pt;
+    display: flex;
+    margin-top: 12px;
+    margin-right: 45px;
+}
+
+.twitter{
+    text-decoration: none;
+    color: rgb(42, 17, 71);
+    text-align: center;
+    font-size: 15pt;
+    display: flex;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+
